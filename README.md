@@ -2,7 +2,8 @@
 ex1-openldap is a docker-compose file with 2 folders to build an example docker service to run openldap.
 
 To run this project.
-1. Start/Install ubuntu server 16.04 64 bit and docker 17.06.2-ce
+1. Start/Install ubuntu server 16.04 64 bit and docker 17.06.2-ce<br>
+   Change hostname to ldap.example.com
 2. Use docker-compose 1.8.0-2, you can install it by "sudo apt install docker-compose"
 3. Clone this project,<br>
    git clone https://github.com/woonpsu/ex1-openldap.git

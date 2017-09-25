@@ -1,0 +1,80 @@
+# Create 8 students in tree OU=students,OU=groups
+dn: cn=5310110293,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5310110293
+sn: 5310110293
+givenName: somsak
+cn: 5310110293
+displayName: somsak somsaknaja
+userPassword: 123456
+mail: 5310110293@example.com
+
+dn: cn=5410110308,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5410110308
+sn: 5410110308
+givenName: somsri
+cn: 5410110308
+displayName: somsri somsrisiya
+userPassword: 123456
+mail: 5410110308@example.com
+
+dn: cn=5410210081,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5410210081
+sn: 5410210081
+givenName: sompong
+cn: 5410210081
+displayName: sompong sompongnaya
+userPassword: 123456
+mail: 5410210081@example.com
+
+dn: cn=5510210058,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5510210058
+sn: 5510210058
+givenName: somchai
+cn: 5510210058
+displayName: somchai somchaisiya
+userPassword: 123456
+mail: 5510210058@example.com
+
+dn: cn=5210310095,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5210310095
+sn: 5210310095
+givenName: somchoke
+cn: 5210310095
+displayName: somchoke somchokenaja
+userPassword: 123456
+mail: 5210310095@example.com
+
+dn: cn=5710310067,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5710310067
+sn: 5710310067
+givenName: somjit
+cn: 5710310067
+displayName: somjit somjitssiya
+userPassword: 123456
+mail: 5710310067@example.com
+
+dn: cn=5511210020,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5511210020
+sn: 5511210020
+givenName: somjai
+cn: 5511210020
+displayName: somjai somjainaya
+userPassword: 123456
+mail: 5511210020@example.com
+
+dn: cn=5611210004,ou=students,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: 5611210004
+sn: 5611210004
+givenName: somwang
+cn: 5611210004
+displayName: somwang somwangsija
+userPassword: 123456
+mail: 5611210004@example.com

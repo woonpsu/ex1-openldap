@@ -1,0 +1,53 @@
+# Starter kit for create user in domain dc=example,dc=com
+# Create 1 user in tree OU=execs,OU=groups
+dn: cn=nana,ou=execs,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: nana
+sn: Na
+givenName: Na
+cn: nana
+displayName: Na Na
+userPassword: 123456
+mail: nana@example.com
+
+# Create 2 users in tree OU=staffs,OU=groups
+dn: cn=koko,ou=staffs,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: koko
+sn: Ko
+givenName: Ko
+cn: koko
+displayName: Ko Ko
+userPassword: 123456
+mail: koko@example.com
+
+dn: cn=momo,ou=staffs,ou=groups,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: momo
+sn: Mo
+givenName: Mo
+cn: momo
+displayName: Mo Mo
+userPassword: 123456
+mail: momo@example.com
+
+# Create 2 users in tree OU=people
+dn: cn=lala,ou=people,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: lala
+sn: La
+givenName: La
+cn: lala
+displayName: La La
+userPassword: 123456
+mail: lala@example.com
+
+dn: cn=lulu,ou=people,dc=example,dc=com
+objectClass: inetOrgPerson
+uid: lulu
+sn: Lu
+givenName: Lu
+cn: lulu
+displayName: Lu Lu
+userPassword: 123456
+mail: lulu@example.com

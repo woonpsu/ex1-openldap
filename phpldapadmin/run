@@ -1,0 +1,1 @@
+LDAPSERVER=$(docker exec -it openldap cat /etc/hosts | tail -1 | cut -f1) && docker run --restart always -d -p 8080:80 --env HNAME=${LDAPSERVER} --name phpldapadmin phpldapadmin

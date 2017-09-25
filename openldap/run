@@ -1,0 +1,1 @@
+docker run --restart always -d -p 636:636 -p 389:389 --name openldap --volume oldata:/var/lib/ldap --volume olconfig:/etc/ldap/slapd.d openldap

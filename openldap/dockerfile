@@ -1,8 +1,8 @@
-# Composer: WIboon Warasittichai
+# Composer: Wiboon Warasittichai
 # E-Mail: wiboon.w@psu.ac.th
 # Ubuntu Server 16.04 x64
 # Packages: openldap
-# Update: 6-09-2017
+# Update: 10-10-2017
 
 FROM ubuntu:16.04
 
@@ -40,10 +40,11 @@ RUN apt-get autoremove -y && apt-get clean -y
 
 # LDAP
 COPY ./src/*.ldif /tmp/
-RUN service slapd start && \
 ## Schema only, no user.
+RUN service slapd start && \
     ldapadd -H ldapi:/// -f /tmp/create-schema.ldif -x -D "cn=admin,dc=example,dc=com" -w 123456
 ## Schema and add users.
+## RUN service slapd start && \
 ##    ldapadd -H ldapi:/// -f /tmp/create-schema.ldif -x -D "cn=admin,dc=example,dc=com" -w 123456 && \
 ##    ldapadd -H ldapi:/// -f /tmp/create-users.ldif -x -D "cn=admin,dc=example,dc=com" -w 123456 && \
 ##    ldapadd -H ldapi:/// -f /tmp/create-students.ldif -x -D "cn=admin,dc=example,dc=com" -w 123456
